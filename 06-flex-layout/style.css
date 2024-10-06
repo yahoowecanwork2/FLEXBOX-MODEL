@@ -44,3 +44,27 @@ a {
     text-decoration: none;
     color: rgb(8, 8, 8);
 }
+
+.footer {
+    display: flex;
+
+    justify-content: space-between;
+    background-color: #eee;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    height: 90vh;
+}
